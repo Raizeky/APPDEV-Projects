@@ -1,0 +1,60 @@
+.App {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+  
+.box {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px; 
+    margin: 10px 0; 
+    background-color: #f9f9f9; 
+}
+  
+.grocery-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .grocery-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .grocery-item:hover {
+    background-color: #f4f4f4;
+  }
+  
+  .grocery-item img {
+    border-radius: 5px;
+  }
+  
+  .box {
+    margin: 20px 0;
+  }
+  
+  .payment-section input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    width: 150px;
+  }
+  
+  .payment-section h3 {
+    color: #007b00;
+  }
+  
+  .payment-section h3 {
+    color: red;
+  }
+
+  .selected-items-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;            /* Remove default padding */
+  }
