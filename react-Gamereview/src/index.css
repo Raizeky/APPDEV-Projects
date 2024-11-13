@@ -1,0 +1,121 @@
+.app {
+    text-align: center;
+    padding: 20px;
+    background-color: #848482;
+}
+
+.login-panel {
+    padding: 20px;
+    text-align: center;
+}
+  
+h2 {
+    font-size: 2rem;
+    color: #32cd32; 
+}
+
+button {
+    margin-top: 20px;
+}
+  
+input, textarea, select {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 250px;
+}
+  
+.error-message {
+    color: red;
+    font-weight: bold;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: auto;
+}
+  
+.login-container input,
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+  
+.login-container button {
+    background-color: #191970;
+    color: white;
+    cursor: pointer;
+}
+  
+.login-container button:hover {
+    background-color: #2ecc71;
+}
+  
+.error-message {
+    color: red;
+}
+  
+.game-review-container {
+    background-color: #8a795d ;
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    margin: auto;
+}
+  
+.game-review-container input,
+.game-review-container select,
+.game-review-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #191970;
+    border-radius: 4px;
+}
+  
+.game-review-container button {
+    background-color: #27ae60;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+  
+ .game-review-container button:hover {
+    background-color: #2ecc71;
+}
+  
+.admin-panel {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    margin: auto;
+}
+  
+.review-list {
+    margin-top: 20px;
+}
+  
+.review-card {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+  
+.review-card h4 {
+    margin-top: 0;
+}
+  
+.date {
+    font-size: 0.9em;
+    color: #888;
+}

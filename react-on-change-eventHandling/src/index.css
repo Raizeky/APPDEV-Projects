@@ -1,0 +1,118 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+  
+body {
+    background-color: #f4f7f6;
+    padding: 20px;
+}
+  
+h4, h2 {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 2.5em;
+}
+  
+strong {
+    font-weight: bold;
+}
+  
+
+header, footer {
+    text-align: center;
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 0;
+}
+  
+footer {
+    margin-top: 20px;
+}
+  
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 500px;
+}
+  
+input[type="text"], input[type="number"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  
+input[type="radio"] {
+    margin-right: 10px;
+}
+  
+button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+  
+button:hover {
+    background-color: #2ecc71;
+}
+
+.card-container {
+    background-color: #ecf0f1;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+  
+.card-container p {
+    font-size: 16px;
+}
+  
+.card-container strong {
+    color: #2980b9;
+}
+
+.student-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+  
+.student-card div {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+}
+
+.student-card h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+  
+.student-card p {
+    font-size: 14px;
+    color: #7f8c8d;
+}
+  
+.student-card strong {
+    font-size: 16px;
+    color: #27ae60;
+}
+ 
