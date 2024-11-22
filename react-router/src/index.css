@@ -1,0 +1,32 @@
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.active-link {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+:root {
+  --font-size-base: 16px;
+  --font-size-small: 14px;
+  --font-size-large: 18px;
+}
+
+body {
+  font-size: var(--font-size-base);
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: calc(var(--font-size-base) * 2);
+}
+
+h2 {
+  font-size: calc(var(--font-size-base) * 1.5);
+}
