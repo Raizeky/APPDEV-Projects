@@ -1,0 +1,14 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive; 
+}
+
+body {
+    background-image: url('../IMG/Dex.jpg');
+    background-size: cover; /* Makes the background cover the whole screen */
+    background-position: center; /* Center the background */
+    background-repeat: no-repeat; /* Prevent repeating the background */
+    background-attachment: fixed; /* Keep the background fixed when scrolling */
+}
